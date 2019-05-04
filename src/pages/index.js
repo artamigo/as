@@ -47,10 +47,20 @@ class Index extends React.Component {
                         <div className="spotlight">
                             <div className="content">
                                 <header className="major">
-                                    <h2>¿Qué esta pasando?</h2>
+                                    <h2>Nos Casamos</h2>
                                 </header>
-                                <p>Despues de varios años (como 15) de planeacion y logistica hemos decidido unir
-                                    nuestras vidas ante las leyes del hombre.
+                                <p>Algunos se habrán sorprendido por saber, que contra todo pronóstico y rompiendo
+                                    quinielas, dentro de pocos días nos casaremos.
+                                </p>
+                                <p>
+                                    Se preguntarán el por qué de tan repentina decisión. La verdad… es que después de 16
+                                    años de ponernos de acuerdo y desacuerdo, de idealizar y buscar el momento perfecto.
+                                    Comprendimos que el momento perfecto es “ahora”. Ahora que estamos plenos, felices y
+                                    enamorados.
+                                </p>
+                                <p>
+                                    Nos gustaría que ustedes, que han sido parte de esta historia, nos acompañen a
+                                    celebrar este momento tan especial.
                                 </p>
                             </div>
                             <span className="image"><img src={pic01} alt=""/></span>
@@ -83,7 +93,7 @@ class Index extends React.Component {
                             <div className="map">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118414.40169100335!2d-102.38367579938335!3d21.955683721172466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjLCsDAxJzMyLjIiTiAxMDLCsDE4JzM0LjYiVw!5e0!3m2!1sen!2sus!4v1556852856243!5m2!1sen!2sus"
-                                     frameborder="0" allowfullscreen></iframe>
+                                    frameborder="0" allowfullscreen></iframe>
                             </div>
 
                         </div>
@@ -121,15 +131,6 @@ class Index extends React.Component {
                             </p>
                         </header>
                     </section>
-
-                    <section id="five" className="main special">
-                        <header className="major">
-                            <h2>Redes Sociales</h2>
-                            <p>
-                            </p>
-                        </header>
-                    </section>
-
 
                 </div>
 
