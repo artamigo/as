@@ -6,141 +6,136 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/01.png'
+
+let iframeSrc = 'https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d118414.40169100335!2d-102.38367579938335!3d21.955683721172466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m5!1s0x8429ec143ae4d9fb%3A0x4016978679c5220!2sAguascalientes%2C+Mexico!3m2!1d21.8852562!2d-102.2915677!4m3!3m2!1d22.025617!2d-102.30960499999999!5e0!3m2!1sen!2sus!4v1556851937008!5m2!1sen!2sus';
 
 class Index extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      stickyNav: false
+    constructor( props ) {
+        super( props );
+        this.state = {
+            stickyNav: false
+        }
     }
-  }
 
-  _handleWaypointEnter= () => {
-    this.setState(() => ({ stickyNav: false }));
-  }
+    _handleWaypointEnter = () => {
+        this.setState( () => ({ stickyNav: false }) );
+    }
 
-  _handleWaypointLeave = () => {
-    this.setState(() => ({ stickyNav: true }));
-  }
+    _handleWaypointLeave = () => {
+        this.setState( () => ({ stickyNav: true }) );
+    }
 
-  render() {
+    render() {
 
-    return (
-      <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        return (
+            <Layout>
+                <Helmet title="Gatsby Starter - Stellar"/>
 
-        <Header />
+                <Header/>
 
-        <Waypoint
-          onEnter={this._handleWaypointEnter}
-          onLeave={this._handleWaypointLeave}
-        >
-        </Waypoint>
-        <Nav sticky={this.state.stickyNav} />
+                <Waypoint
+                    onEnter={this._handleWaypointEnter}
+                    onLeave={this._handleWaypointLeave}
+                >
+                </Waypoint>
+                <Nav sticky={this.state.stickyNav}/>
 
-        <div id="main">
+                <div id="main">
 
-          <section id="intro" className="main">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
-                </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
-                <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
-                </ul>
-              </div>
-              <span className="image"><img src={pic01} alt="" /></span>
-            </div>
-          </section>
+                    <section id="intro" className="main">
+                        <div className="spotlight">
+                            <div className="content">
+                                <header className="major">
+                                    <h2>¿Qué esta pasando?</h2>
+                                </header>
+                                <p>Despues de varios años (como 15) de planeacion y logistica hemos decidido unir
+                                    nuestras vidas ante las leyes del hombre.
+                                </p>
+                            </div>
+                            <span className="image"><img src={pic01} alt=""/></span>
+                        </div>
+                    </section>
 
-          <section id="first" className="main special">
-            <header className="major">
-              <h2>Magna veroeros</h2>
-            </header>
-            <ul className="features">
-              <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-              <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-            </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
-          </section>
+                    <section id="first" className="main special">
+                        <header className="major">
+                            <h2>Lugar</h2>
+                        </header>
+                        <div className="direccion-conainer">
 
-          <section id="second" className="main special">
-            <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-            </header>
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
-              </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
-              </li>
-              <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
-              </li>
-              <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
-              </li>
-            </ul>
-            <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
-          </section>
+                            <div style={{
+                                flex: 1,
+                                justifyContent: "center",
+                                display: "flex",
+                                flexDirection: "column",
+                                margin: "20px"
+                            }}>
+                                <p>Hemos elegido un bonito jardín, ubicado en la granja “El Profe”, cerca de Valladolid.
+                                    Aproximadamente a 20 min del centro de Aguascalientes.
 
-          <section id="cta" className="main special">
-            <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-            </header>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
-          </section>
+                                    Te anexamos la direccion 👇 y el mapa 🗺️ para que no te pierdas.</p>
 
-        </div>
+                                <h2>Dirección</h2>
+                                <p style={{ textAlign: "center", margin: 0 }}>Camino Río San Pedro #196, El Maguey.</p>
+                                <p style={{ textAlign: "center", margin: 0 }}>Granja "El Profe".</p>
+                                <p style={{ textAlign: "center", margin: 0 }}>Jesus María, Aguascalientes.</p>
+                            </div>
+                            <div className="map">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118414.40169100335!2d-102.38367579938335!3d21.955683721172466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjLCsDAxJzMyLjIiTiAxMDLCsDE4JzM0LjYiVw!5e0!3m2!1sen!2sus!4v1556852856243!5m2!1sen!2sus"
+                                     frameborder="0" allowfullscreen></iframe>
+                            </div>
 
-      </Layout>
-    )
-  }
+                        </div>
+                    </section>
+
+                    <section id="second" className="main special">
+                        <header className="major">
+                            <h2>¿Qué me pongo?</h2>
+                            <p style={{ maxWidth: "500px", margin: "auto", marginBottom: "10px" }}> No te estreses!
+                                Queremos que te sientas códomo(a). Guarda el smoking y vestido largo. Una vestimenta
+                                casual 👗 es excelente para la ocasión.
+                            </p>
+                            <p style={{ maxWidth: "500px", margin: "auto" }}> La recepción será en un jardín, así que no
+                                olvides tus 🕶 y 👡🥿 cómodos en el caso de las damas.
+                            </p>
+                        </header>
+                    </section>
+
+                    <section id="trd" className="main special">
+                        <header className="major">
+                            <h2>¿Y... a qué hora llego?</h2>
+                            <p style={{ maxWidth: "500px", margin: "auto", marginBottom: "10px" }}>
+                                Estaremos listos para recibirte en punto de las 14:00 hrs. ☀️ con unos deliciosos
+                                bocadillos y bebidas refrescantes 🍻🍸🍹 de bienvenida. </p>
+                        </header>
+                    </section>
+
+                    <section id="cta" className="main special">
+                        <header className="major">
+                            <h2>Regalos</h2>
+                            <p style={{ maxWidth: "500px", margin: "auto", marginBottom: "10px" }}>
+                                Nuestro camino de regreso a casa 🗽 será largo y el espacio muy reducido. Así que no te
+                                preocupes por llevar algún 🎁. El mejor regalo es que nos acompañes y celebres
+                                este día con nosotros 🍾🥂.
+                            </p>
+                        </header>
+                    </section>
+
+                    <section id="five" className="main special">
+                        <header className="major">
+                            <h2>Redes Sociales</h2>
+                            <p>
+                            </p>
+                        </header>
+                    </section>
+
+
+                </div>
+
+            </Layout>
+        )
+    }
 }
 
 export default Index
