@@ -9,6 +9,7 @@ import Nav from '../components/Nav'
 import pic01 from '../assets/images/01.png'
 
 let iframeSrc = 'https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d59193.30628802942!2d-102.32046801828386!3d21.989013924106906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m5!1s0x8429ee66c314de7d%3A0xdff547d2b8c845ce!2sAltaria+Mall%2C+Troje+de+Alonso%2C+Aguascalientes+Municipality%2C+Aguascalientes%2C+Mexico!3m2!1d21.924259!2d-102.2896449!4m3!3m2!1d22.025617!2d-102.30960499999999!5e0!3m2!1sen!2sus!4v1557010191858!5m2!1sen!2sus'
+
 // let iframeSrc = "https://www.google.com/maps/embed?key=AIzaSyAG2y5ljPXNtDP6_0V4UPcwChKuZbDw6C4&pb=!1m26!1m12!1m3!1d59199.24788159626!2d-102.34673231080421!3d21.974767136241738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m5!1s0x8429ee66c314de7d%3A0xdff547d2b8c845ce!2sAltaria+Mall%2C+Boulevard+a+Zacatecas+849%2C+Troje+de+Alonso%2C+Aguascalientes%2C+Ags.%2C+Mexico!3m2!1d21.924259!2d-102.2896449!4m3!3m2!1d22.025617!2d-102.30960499999999!5e0!3m2!1sen!2sus!4v1557010437514!5m2!1sen!2sus"
 
 
@@ -131,8 +132,11 @@ class Index extends React.Component {
                             </p>
                         </header>
                     </section>
-                    <section >
-                            <h2>Los esperamos!</h2>
+                    <section className="main special">
+                        <header className="major">
+                            <h1>Los esperamos!</h1>
+                            <h1 style={{color: "initial"}}>🤵👰</h1>
+                        </header>
                     </section>
 
                 </div>
