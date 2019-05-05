@@ -10,7 +10,7 @@ const Header = ( props ) => (
         <p>18 de Mayo de 2019</p>
         <p style={{
             fontSize: "1em",
-        }}>CEREMONIA AL CIVIL</p>
+        }}>&#8226; CEREMONIA AL CIVIL &#8226;</p>
     </header>
 )
 
