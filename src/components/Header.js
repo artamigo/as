@@ -10,7 +10,6 @@ const Header = ( props ) => (
         <p>18 de Mayo de 2019</p>
         <p style={{
             fontSize: "1em",
-            color: "#b2b3b3a8",
         }}>CEREMONIA AL CIVIL</p>
     </header>
 )
