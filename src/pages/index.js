@@ -8,7 +8,7 @@ import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/01.png'
 
-let iframeSrc = 'https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2560.7296131975922!2d-102.30907669298747!3d22.024824226550855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m5!1s0x8429ee66c314de7d%3A0xdff547d2b8c845ce!2sAltaria+Mall%2C+Boulevard+a+Zacatecas+849%2C+Troje+de+Alonso%2C+20116+Aguascalientes%2C+Ags.%2C+Mexico!3m2!1d21.924259!2d-102.2896449!4m3!3m2!1d22.0256574!2d-102.3095372!5e0!3m2!1sen!2sus!4v1557017093542!5m2!1sen!2sus'
+let iframeSrc = 'https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d14795.586699528803!2d-102.30472109107666!3d22.015269665003668!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m5!1s0x8429ee66c314de7d%3A0xdff547d2b8c845ce!2sAltaria+Mall%2C+Boulevard+a+Zacatecas+849%2C+Troje+de+Alonso%2C+Aguascalientes%2C+Ags.%2C+Mexico!3m2!1d21.924259!2d-102.2896449!4m3!3m2!1d22.0256875!2d-102.3094375!5e0!3m2!1sen!2sus!4v1557017715270!5m2!1sen!2sus'
 
 class Index extends React.Component {
     constructor( props ) {
