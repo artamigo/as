@@ -52,8 +52,8 @@ class Index extends React.Component {
                                 <header className="major">
                                     <h2>Nos Casamos</h2>
                                 </header>
-                                <p>Algunos se habrán sorprendido por saber, que contra todo pronóstico y rompiendo
-                                    quinielas, dentro de pocos días nos casaremos.
+                                <p>A algunos de ustedes les habrá tomado por sorpresa la noticia, de que dentro de muy
+                                    pocos días nos casaremos.
                                 </p>
                                 <p>
                                     Se preguntarán el por qué de tan repentina decisión. La verdad… es que después de 16
@@ -86,7 +86,7 @@ class Index extends React.Component {
                                 <p>Hemos elegido un bonito jardín, ubicado en la granja “El Profe”, cerca de Valladolid.
                                     Aproximadamente a 20 min del centro de Aguascalientes.
 
-                                    Te anexamos la direccion 👇 y el mapa 🗺️ para que no te pierdas.</p>
+                                    Te anexamos la dirección 👇 y el mapa 🗺️ para que no te pierdas.</p>
 
                                 <h2>Dirección</h2>
                                 <p style={{ textAlign: "center", margin: 0 }}>Camino Río San Pedro #196, El Maguey.</p>
@@ -135,7 +135,7 @@ class Index extends React.Component {
                     <section className="main special">
                         <header className="major">
                             <h1>Los esperamos!</h1>
-                            <h1 style={{color: "initial"}}>🤵👰</h1>
+                            <h1 style={{ color: "initial" }}>🤵👰</h1>
                         </header>
                     </section>
 

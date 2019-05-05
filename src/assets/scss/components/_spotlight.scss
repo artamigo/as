@@ -28,7 +28,7 @@
 		.image {
 			display: inline-block;
 			margin-left: 4em;
-			padding: 0.65em;
+			padding: 0.25em;
 			border-radius: 100%;
 			border: solid 1px;
 
@@ -68,7 +68,7 @@
 
 		@include breakpoint(small) {
 			.image {
-				padding: 0.35em;
+				padding: 0.25em;
 
 				img {
 					width: 12em;
@@ -81,6 +81,7 @@
 		.spotlight {
 			.image {
 				border-color: _palette($p, border);
+				background: #efa8b0;
 			}
 		}
 	}
