@@ -88,7 +88,7 @@ class Index extends React.Component {
                                 <h2>Dirección</h2>
                                 <p style={{ textAlign: "center", margin: 0 }}>Camino Río San Pedro #196, El Maguey.</p>
                                 <p style={{ textAlign: "center", margin: 0 }}>Granja "El Profe".</p>
-                                <p style={{ textAlign: "center", margin: 0 }}>Jesus María, Aguascalientes.</p>
+                                <p style={{ textAlign: "center", margin: 0 }}>Jesiús María, Aguascalientes.</p>
                             </div>
                             <div className="map">
                                 <iframe src={iframeSrc} frameborder="0" allowfullscreen></iframe>
