@@ -86,7 +86,7 @@ class Index extends React.Component {
                                 <p>
                                     <a href="https://i.giphy.com/media/kaq6GnxDlJaBq/giphy.webp" target="_blank">Las
                                         reglas cambian! </a>
-                                    Encontramos un jardin mas bonito y un poco más cerca. Te anexamos la dirección 👇 y el mapa 🗺️ para que no te pierdas.</p>
+                                    Encontramos un jardin más bonito y un poco más cerca. Te anexamos la dirección 👇 y el mapa 🗺️ para que no te pierdas.</p>
 
                                 <h2>Nueva Dirección</h2>
                                 <p style={{ textAlign: "center", margin: 0 }}>Privada Niños Heroes 117, Paso Blanco</p>
