@@ -8,7 +8,7 @@ import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/01.png'
 
-let iframeSrc = 'https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d14795.586699528803!2d-102.30472109107666!3d22.015269665003668!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m5!1s0x8429ee66c314de7d%3A0xdff547d2b8c845ce!2sAltaria+Mall%2C+Boulevard+a+Zacatecas+849%2C+Troje+de+Alonso%2C+Aguascalientes%2C+Ags.%2C+Mexico!3m2!1d21.924259!2d-102.2896449!4m3!3m2!1d22.0256875!2d-102.3094375!5e0!3m2!1sen!2sus!4v1557017715270!5m2!1sen!2sus'
+let iframeSrc = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14799.463341730288!2d-102.318753!3d21.9781117!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x905c01a2e6f6e3ea!2sJard%C3%ADn+de+Eventos+Granja+Centenario!5e0!3m2!1sen!2sus!4v1557456446975!5m2!1sen!2sus';
 
 class Index extends React.Component {
     constructor( props ) {
@@ -80,14 +80,17 @@ class Index extends React.Component {
                                 flexDirection: "column",
                                 margin: "20px"
                             }}>
-                                <p>Hemos elegido un bonito jardín, ubicado en la granja “El Profe”, cerca de Valladolid.
+                                <p style={{ "text-decoration": "line-through" }}>Hemos elegido un bonito jardín, ubicado en la granja “El Profe”, cerca de Valladolid.
                                     Aproximadamente a 20 min del centro de Aguascalientes.
+                                </p>
+                                <p>
+                                    <a href="https://i.giphy.com/media/kaq6GnxDlJaBq/giphy.webp" target="_blank">Las
+                                        reglas cambian! </a>
+                                    Encontramos un jardin mas bonito y un poco más cerca. Te anexamos la dirección 👇 y el mapa 🗺️ para que no te pierdas.</p>
 
-                                    Te anexamos la dirección 👇 y el mapa 🗺️ para que no te pierdas.</p>
-
-                                <h2>Dirección</h2>
-                                <p style={{ textAlign: "center", margin: 0 }}>Camino Río San Pedro #196, El Maguey.</p>
-                                <p style={{ textAlign: "center", margin: 0 }}>Granja "El Profe".</p>
+                                <h2>Nueva Dirección</h2>
+                                <p style={{ textAlign: "center", margin: 0 }}>Privada Niños Heroes 117, Paso Blanco</p>
+                                <p style={{ textAlign: "center", margin: 0 }}>Jardín de Eventos Granja Centenario</p>
                                 <p style={{ textAlign: "center", margin: 0 }}>Jesiús María, Aguascalientes.</p>
                             </div>
                             <div className="map">
