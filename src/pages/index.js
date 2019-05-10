@@ -134,7 +134,7 @@ class Index extends React.Component {
                     </section>
                     <section className="main special">
                         <header className="major">
-                            <h1>Los esperamos!</h1>
+                            <h1>Te esperamos!</h1>
                             <h1 style={{ color: "initial" }}>🤵👰</h1>
                         </header>
                     </section>
