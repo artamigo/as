@@ -91,7 +91,7 @@ class Index extends React.Component {
                                 <h2>Nueva Dirección</h2>
                                 <p style={{ textAlign: "center", margin: 0 }}>Privada Niños Heroes 117, Paso Blanco</p>
                                 <p style={{ textAlign: "center", margin: 0 }}>Jardín de Eventos Granja Centenario</p>
-                                <p style={{ textAlign: "center", margin: 0 }}>Jesiús María, Aguascalientes.</p>
+                                <p style={{ textAlign: "center", margin: 0 }}>Jesús María, Aguascalientes.</p>
                             </div>
                             <div className="map">
                                 <iframe src={iframeSrc} frameborder="0" allowfullscreen></iframe>
