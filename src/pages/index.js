@@ -49,7 +49,7 @@ class Index extends React.Component {
                                 <header className="major">
                                     <h2>Nos Casamos</h2>
                                 </header>
-                                <p>A algunos de ustedes les habrá tomado por sorpresa la noticia, de que dentro de muy
+                                <p>A algunos de ustedes les habrá tomado por sorpresa la noticia de que dentro de muy
                                     pocos días nos casaremos.
                                 </p>
                                 <p>
@@ -80,15 +80,14 @@ class Index extends React.Component {
                                 flexDirection: "column",
                                 margin: "20px"
                             }}>
-                                <p style={{ "text-decoration": "line-through" }}>Hemos elegido un bonito jardín, ubicado en la granja “El Profe”, cerca de Valladolid.
+                                <p>Para la celebración, hemos elegido el bonito jardín "Granja Centenario", ubicado en Paso Blanco.
                                     Aproximadamente a 20 min del centro de Aguascalientes.
                                 </p>
-                                <p>
-                                    <a href="https://i.giphy.com/media/kaq6GnxDlJaBq/giphy.webp" target="_blank">Las
-                                        reglas cambian! </a>
-                                    Encontramos un jardin más bonito y un poco más cerca. Te anexamos la dirección 👇 y el mapa 🗺️ para que no te pierdas.</p>
+                                <p>Te anexamos la dirección 👇 y el mapa 🗺️ para que no te pierdas.</p>
 
-                                <h2>Nueva Dirección</h2>
+                                <p>El lugar está un poco escondido, pero "KEEP CALM AND TRUST IN <a href="https://maps.google.com/maps?ll=21.978112,-102.318753&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=10402191038490272746">GOOGLE MAPS</a>"</p>
+
+                                <h2>Dirección</h2>
                                 <p style={{ textAlign: "center", margin: 0 }}>Privada Niños Heroes 117, Paso Blanco</p>
                                 <p style={{ textAlign: "center", margin: 0 }}>Jardín de Eventos Granja Centenario</p>
                                 <p style={{ textAlign: "center", margin: 0 }}>Jesús María, Aguascalientes.</p>
